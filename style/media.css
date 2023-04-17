@@ -1,0 +1,141 @@
+@media(max-width:820px){
+
+ .cards__content{
+ overflow-x: scroll;
+ column-gap: 30px;
+ padding-bottom: 30px;
+scroll-snap-type: x mandatory;
+ }
+
+ .card{
+    scroll-snap-align: center;
+ }
+
+ .about__content{
+flex-wrap: wrap;
+ }
+ .about__subtitle{
+    width: 600px;
+ }
+
+ .contacts__content{
+    gap: 100px;
+ }
+ .about-img{
+    max-width: 700px;
+    width: 100%;
+ }
+ 
+}
+
+@media(max-width:688px){
+  
+.header__menuu{
+    position: fixed;
+    z-index: 10;
+    flex-direction: column;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.404);
+    backdrop-filter: blur(10px);
+    bottom: 0;
+    transform: translateX(-100%);
+}
+.header__menuu-btn{
+    display: flex;
+}
+
+.header__link{
+    color: #fff;
+}
+
+.header__menuu-btn:focus+.header__menuu{
+display: flex;
+transform: unset;
+transition: 0.7s;
+}
+
+.header__menu{
+    flex-direction: column;
+   margin-bottom: 30px;
+}
+
+}
+@media(max-width:590px){
+    .about__subtitle{
+        width: 500px;
+    }
+    .banner__title{
+        font-size: 40px;
+        height: 100%;
+    }
+    .banner__descr{
+        font-size: 30px;
+        height: 100%;
+    }
+
+
+}
+
+@media(max-width:500px){
+    .about__subtitle{
+        width: 450px;
+    }
+    .contacts__content{
+      flex-wrap: wrap;
+      row-gap: 30px;
+    }
+    .banner__desc{
+     font-size: 30px;
+    }
+    .banner__title{
+        font-size: 50px;
+    }
+}
+@media(max-width:470px){
+    .about__subtitle{
+        width: 400px;
+    }
+    .contacts__content{
+        flex-wrap: wrap;
+        row-gap: 30px;
+      }
+}
+
+@media(max-width:416px){
+    .footer{
+        width: 100%;
+
+    }
+    .banner__desc{
+        font-size: 25px;
+       }
+    .about__subtitle{
+        width: 350px;
+    }
+}
+
+@media(max-width:365px){
+    .about__subtitle{
+        width: 330px;
+        
+    }
+    .banner__desc{
+        font-size: 20px;
+       }
+}
+
+@media(max-width:345px){
+    .about__subtitle{
+        width: 300px;
+        
+    }
+}
+
+@media(max-width:320px){
+    .about__subtitle{
+        width: 290px;
+        
+    }
+}
